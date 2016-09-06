@@ -22,8 +22,8 @@ HTTP - I haven't been able to find any official documentation about these pages:
    /EventHandler.asp?WebToHostItem=VD - Volume down  
    /EventHandler.asp?WebToHostItem=MO - Mute on  
    /EventHandler.asp?WebToHostItem=MF - Mute off  
-   /EventHandler.asp?WebToHostItem=**FN - Input change (** = input number)  
-   /EventHandler.asp?WebToHostItem=***SR - Listening mode (*** = listening mode)  
+   /EventHandler.asp?WebToHostItem=\*\*FN - Input change (\*\* = input number)  
+   /EventHandler.asp?WebToHostItem=\*\*\*SR - Listening mode (\*\*\* = listening mode)  
 
 HTTPS -
   - https://ipaddress/ - Requires a client certificate.  I haven't been able to access this link.
