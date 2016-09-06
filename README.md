@@ -14,17 +14,16 @@ UPnP - The receiver implements UPnP to expose standard capabilities.
 HTTP - I haven't been able to find any official documentation about these pages:
   - http://ipaddress/StatusHandler.asp - Receiver status
   - http://ipaddress/EventHandler.asp?WebToHostItem=command - Issue a command to the receiver over http
-  ```
-  Example commands (These seem to be the same as custom install IP & RS-232 commands):
-  /EventHandler.asp?WebToHostItem=PO - Power on
-  /EventHandler.asp?WebToHostItem=PF - Power off
-  /EventHandler.asp?WebToHostItem=VU - Volume up
-  /EventHandler.asp?WebToHostItem=VD - Volume down
-  /EventHandler.asp?WebToHostItem=MO - Mute on
-  /EventHandler.asp?WebToHostItem=MF - Mute off
-  /EventHandler.asp?WebToHostItem=**FN - Input change (** = input number)
-  /EventHandler.asp?WebToHostItem=***SR - Listening mode (*** = listening mode)
-  ```    
+
+...Example commands (These seem to be the same as custom install IP & RS-232 commands):
+.../EventHandler.asp?WebToHostItem=PO - Power on
+.../EventHandler.asp?WebToHostItem=PF - Power off
+.../EventHandler.asp?WebToHostItem=VU - Volume up
+.../EventHandler.asp?WebToHostItem=VD - Volume down
+.../EventHandler.asp?WebToHostItem=MO - Mute on
+.../EventHandler.asp?WebToHostItem=MF - Mute off
+.../EventHandler.asp?WebToHostItem=**FN - Input change (** = input number)
+.../EventHandler.asp?WebToHostItem=***SR - Listening mode (*** = listening mode)
 
 HTTPS -
   - https://ipaddress/ - Requires a client certificate.  I haven't been able to access this link.
